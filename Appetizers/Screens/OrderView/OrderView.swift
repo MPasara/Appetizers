@@ -10,7 +10,6 @@ import SwiftUI
 struct OrderView: View {
     @EnvironmentObject var order: Order
 
-    //@State private var orderItems = MockData.orderItems
     @State private var isShowingClearAlert = false
 
     var body: some View {
